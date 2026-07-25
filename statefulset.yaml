@@ -32,7 +32,7 @@ spec:
         #volume mount
         volumeMounts:
         - name: mystatefulset-volume
-          mountPath: /var/www/html
+          mountPath: /usr/share/nginx/html
   volumeClaimTemplates:
   - metadata:
       name: mystatefulset-volume
