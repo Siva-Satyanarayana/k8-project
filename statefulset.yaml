@@ -32,7 +32,7 @@ spec:
         #volume mount
         volumeMounts:
         - name: mystatefulset-volume
-          mountPath: /var/lib/mysql
+          mountPath: /var/www/html
   volumeClaimTemplates:
   - metadata:
       name: mystatefulset-volume
