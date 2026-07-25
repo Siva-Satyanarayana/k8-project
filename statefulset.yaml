@@ -37,6 +37,7 @@ spec:
   - metadata:
       name: mystatefulset-volume
     spec:
+      storageClassName: gp2
       accessModes: [ "ReadWriteOnce" ]
       resources:
         requests:
