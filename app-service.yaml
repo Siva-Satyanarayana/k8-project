@@ -5,7 +5,7 @@ metadata:
   name: bankapp-service
 spec:
   selector:
-    app: bankapp
+    app: myapp
   type: ClusterIP
   ports:
    - protocol: TCP
